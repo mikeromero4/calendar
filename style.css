@@ -1,0 +1,84 @@
+#container {
+  height: 500px;
+  overflow: scroll;
+}
+
+.inset {
+  margin-top: -70px;
+  background: black;
+}
+.inset .in, .inset .b, .inset .y, .inset .g {
+  background: black;
+}
+
+.days {
+  display: flex;
+  justify-content: space-around;
+}
+
+body {
+  background: purple;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 0px;
+  display: inline-block;
+  clear: none;
+}
+
+.cal {
+  margin: auto;
+  color: white;
+  width: fit-content;
+  background: black;
+  padding: 15px;
+}
+
+.week {
+  display: flex;
+  justify-content: space-around;
+  font-size: 30px;
+  width: 500px;
+}
+
+.day {
+  border: solid 3px #555;
+  height: 50px;
+  width: 100%;
+  background: grey;
+  padding: 5px;
+}
+
+.in {
+  background: grey;
+}
+
+.before, .after {
+  color: #fff;
+  background: none;
+}
+
+.before {
+  visibility: hidden;
+}
+
+.g {
+  border: solid 3px green;
+}
+
+.b {
+  border: solid 3px orange;
+}
+
+.y {
+  background: goldenrod;
+  border: solid 3px white;
+}
+.foward {
+  float: left;
+}
+
+.back {
+  float: right;
+}
