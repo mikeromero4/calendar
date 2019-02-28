@@ -1,6 +1,6 @@
 (function(){
 var monthSet = [
-  "January",
+  "January hello",
   "February",
   "March",
   "April",
